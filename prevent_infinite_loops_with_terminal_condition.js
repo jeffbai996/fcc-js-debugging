@@ -11,7 +11,7 @@
 // It's the programmer's job to ensure that the terminal condition, which tells the program when to break out of the loop code, is eventually reached. One error is incrementing or decrementing a counter variable in the wrong direction from the terminal condition. Another one is accidentally resetting a counter or index variable within the loop code, instead of incrementing or decrementing it.
 
 function myFunc() {
-  for (let i = 1; i != 4; i += 2) {
+  for (let i = 1; i <= 4; i += 2) {
     console.log("Still going!");
   }
 }
