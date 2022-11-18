@@ -18,6 +18,7 @@ function zeroArray(m, n) {
     }
     // Pushes the current row, which now has n zeroes in it, to the array
     newArray.push(row);
+    row = [];
   }
   return newArray;
 }
